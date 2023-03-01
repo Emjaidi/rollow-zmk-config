@@ -12,14 +12,14 @@ if SHIELD_ROLLOW_RIGHT
 
 config ZMK_KEYBOARD_NAME
 	default "Rollow Right"
-	
+
 endif
 
 if SHIELD_ROLLOW_LEFT || SHIELD_ROLLOW_RIGHT
 
 config ZMK_SPLIT
 	default y
- 
+
 if ZMK_DISPLAY
 
 config I2C
